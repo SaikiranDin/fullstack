@@ -1,0 +1,32 @@
+/* src/components/PageWithHoverPanels.css */
+.page {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .panel {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .panel:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .panel h2 {
+    color: #333;
+  }
+  
+  .panel p {
+    color: #666;
+  }
+  
