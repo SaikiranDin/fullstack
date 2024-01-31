@@ -1,0 +1,43 @@
+/* src/components/LandingPage.css */
+.landing-container {
+    text-align: center;
+    margin-top: 10%;
+    
+    
+     }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    font-size: 3cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .buttons-container {
+    margin-top: 15%;
+  }
+  
+  .login-button,
+  .register-button {
+    font-size:xx-large;
+    padding: 10px 50px;
+    margin: 10px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+ 
+  
+  .login-button:hover,
+  .register-button:hover {
+    background-color: #2980b9;
+  }
+  body{
+    background-image: url("https://img.freepik.com/free-psd/maternity-baby-shower-background_23-2150237231.jpg?w=1060&t=st=1706692049~exp=1706692649~hmac=cfcccb83e6fb9b8f5a853fb4a59e19b7da84ce32eb70c676a60c62937c6ca7b7");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  }
